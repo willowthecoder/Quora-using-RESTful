@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@<%=post.name%></title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h3>You are looking at</h3>
+    <div class="post">
+      <h4>ID:<%=post.id%></h4>
+      <h4>Name:@<%=post.name%></h4>
+      <h4>Content:<%=post.content%></h4>
+    </div>
+    <div style="text-align: center">
+      <a href="http://localhost:8080/posts">Go back</a>
+    </div>
+  </body>
+</html>

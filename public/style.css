@@ -1,0 +1,50 @@
+.header {
+  color: maroon;
+  text-align: center;
+}
+.post {
+  background-color: antiquewhite;
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: #b92b27; /* Quora red */
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+a:hover {
+  background-color: #8d211e; /* Darker red */
+}
+a:active {
+  background-color: #721b19; /* Even darker red */
+}
+button {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background-color: #b92b27; /* Quora red */
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #8d211e;
+}
+
+button:active {
+  background-color: #721b19;
+}
